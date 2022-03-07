@@ -1,8 +1,18 @@
 h1{
-    font-size : 16px;
-    color : orange;
+    font-size : 36px;
+    color : green;
+}
+h2{
+    font-size: 30px;
+    color  : red
 }
 p{
-    font-size: 16px;
-    color : blue
+    font-size: 24px;
+    color : white 
 }
+body {
+    color:black;
+    background-color:white;
+    background-image:url(fond_gris.jpg);
+    margin:0;
+    }
