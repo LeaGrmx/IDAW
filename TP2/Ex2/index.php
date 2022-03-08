@@ -63,6 +63,33 @@
             echo $value."\n";
             }
     ?>
+
+    <?php
+    //Tableau avec string comme clé
+    $personne = array(
+        'prenom' => 'John',
+        'nom' => 'Doe',
+        'age' => 20
+        );
+        // Affichages équivalents :
+        echo "M. ".$personne['prenom']."\n";
+        echo "M. {$personne['nom']}\n";
+
+    //Clés implicites/explicites
+    $t = array(5 => 43, 32, 56, "b" => 12);
+    $u = array(5 => 43, 6 => 32, 7 => 56, "b" => 12);
+    // $t et $u sont identiques
+    // Affichage d’un élément
+    echo $u["b"];
+
+    //Test matrices
+    $matrice = array(
+        array( 1, 18, 6 ),
+        array( -1, 1, 8 ),
+        array( 13, 18, 3 )
+        );
+        echo "\n".$matrice[1][2];
+    ?> 
     </body>
 
 </html>

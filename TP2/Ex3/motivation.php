@@ -1,19 +1,13 @@
-<!DOCTYPE html>
-
-<html>
-    <head>
-        <title> Lettre de motivation type</title>
-        <meta charset = "utf-8">
-        <link rel="stylesheet" href="cours.css">
-    </head>
-    <body>
+<?php
+    require_once('templace_header.php');
+?>
         <nav class="menu">
           <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a id="currentpage" href="motivation.html">Lettre de motivation</a></li>
-            <li><a href="projets.html">Projets</a></li>
-            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="cv.php">CV</a></li>
+            <li><a id="currentpage" href="motivation.php">Lettre de motivation</a></li>
+            <li><a href="projets.php">Projets</a></li>
+            <li><a href="hobbies.php">Hobbies</a></li>
         </ul> </nav>
      
         <h3> Voici ma lettre de motivation type :</h3>
@@ -36,5 +30,5 @@
             <p> Cordialement,</p>
             <p> Léa GRUMIAUX</p>
         </p>
-    </body>
-</html>
+
+        <?php require_once('templace_footer.php'); ?>

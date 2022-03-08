@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title> Accueil</title>
-        <meta charset = "utf-8">
-        <link rel="stylesheet" href="cours.css">
-    </head>
-    <body>
+<?php
+    require_once('template_header.php');
+?>
         
         <!--Titres -->
 
@@ -17,11 +12,11 @@
             <div class="element-flexible colonne">
                 <nav class="menu">
                     <ul>
-                    <li><a id="currentpage" href="index.html">Accueil</a></li>
-                    <li><a href="cv.html">CV</a></li>
-                    <li><a href="motivation.html">Lettre de motivation</a></li>
-                    <li><a href="projets.html">Projets</a></li>
-                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a id="currentpage" href="index.php">Accueil</a></li>
+                    <li><a href="cv.php">CV</a></li>
+                    <li><a href="motivation.php">Lettre de motivation</a></li>
+                    <li><a href="projets.php">Projets</a></li>
+                    <li><a href="hobbies.php">Hobbies</a></li>
                 </ul> </nav>
             </div>
             <div class="element-flexible colonne">
@@ -36,5 +31,5 @@
         <footer>
             Pour me contacter directement par mail, vous pouvez <a href="mailto:lea.grumiaux@etu.imt-nord-europe.fr"> cliquer ici</a>
         </footer>
-    </body>
-</html>
+
+        <?php require_once('template_footer.php');?>

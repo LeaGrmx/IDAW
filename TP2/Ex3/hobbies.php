@@ -1,19 +1,14 @@
-<!DOCTYPE html>
+<?php
+    require_once('templace_header.php');
+?>
 
-<html>
-    <head>
-        <title> Hobbies</title>
-        <meta charset = "utf-8">
-        <link rel="stylesheet" href="cours.css">
-    </head>
-    <body>
         <nav class="menu">
           <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="motivation.html">Lettre de motivation</a></li>
-            <li><a href="projets.html">Projets</a></li>
-            <li><a id="currentpage" href="hobbies.html">Hobbies</a></li>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="cv.php">CV</a></li>
+            <li><a href="motivation.php">Lettre de motivation</a></li>
+            <li><a href="projets.php">Projets</a></li>
+            <li><a id="currentpage" href="hobbies.php">Hobbies</a></li>
         </ul> </nav>
      
         <h3> Mes hobbies</h3>
@@ -35,5 +30,4 @@
             </ul>
         </div>
       
-    </body>
-</html>
+        <?php require_once('templace_footer.php');?>
