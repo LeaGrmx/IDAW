@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <!-- <nav class="menu">
     <ul>
         <li><a href="index.php">Accueil</a></li>
@@ -11,20 +9,28 @@
 </nav> -->
 
 <?php
+
 function renderMenuToHTML($currentPageId) {
-// un tableau qui d\'efinit la structure du site
+// un tableau qui definit la structure du site
     $mymenu = array( // idPage titre
         'index' => array( 'Accueil' ),
         'cv' => array( 'CV' ),
-        'motivation' => array('Motivation')
-        'projets' => array('Mes Projets')
+        'motivation' => array('Motivation'),
+        'projets' => array('Futurs Projets'),
         'hobbies' => array('Hobbies')
     );
     
-    // ...
+    echo "<nav class=\"menu\"><ul>";
     foreach($mymenu as $pageId => $pageParameters) {
-    echo "...";
+        echo "<li><a ";
+
+        if($currentPageId == $pageId)
+            echo "id=\"currentpage\" ";
+        
+        echo "href= \"$pageId.php\">".$pageParameters[0]."</a></li> \n";
     }
-    // ...
-} ?>
+    echo "</ul></nav>";
+} 
+
+?>
 

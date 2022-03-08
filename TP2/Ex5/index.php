@@ -8,8 +8,10 @@
         
         <div class ="conteneur-flexible">
             <div class="element-flexible colonne">
-                <?php require_once('template_menu.php');
-                    renderMenuToHTML('index');?>
+                <?php 
+                    require_once('template_menu.php');
+                    renderMenuToHTML('index');
+                    ?>
             </div>
             <div class="element-flexible colonne">
                 <header>Bienvenue sur mon premier site HTML.</header>
