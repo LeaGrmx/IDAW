@@ -1,15 +1,8 @@
 <?php
-    require_once('templace_header.php');
+    require_once('template_header.php');
 ?>
 
-        <nav class="menu">
-          <ul>
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="cv.php">CV</a></li>
-            <li><a href="motivation.php">Lettre de motivation</a></li>
-            <li><a href="projets.php">Projets</a></li>
-            <li><a id="currentpage" href="hobbies.php">Hobbies</a></li>
-        </ul> </nav>
+<?php require_once('template_menu.php');?>
      
         <h3> Mes hobbies</h3>
 
