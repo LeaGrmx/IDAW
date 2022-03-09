@@ -1,10 +1,4 @@
-<?php
-    require_once('template_header.php');
-?>
 
-<?php require_once('template_menu.php');
-    renderMenuToHTML('hobbies');?>
-     
         <h3> Mes hobbies</h3>
 
         <div class="element-flexible">
@@ -24,4 +18,3 @@
             </ul>
         </div>
       
-        <?php require_once('templace_footer.php');?>

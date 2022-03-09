@@ -1,7 +1,8 @@
 <?php
     require_once('template_header.php');
 ?>
-       <?php require_once('template_menu.php');?>
+       <?php require_once('template_menu.php');
+        renderMenuToHTML('projets');?>
      
       <!--Titre -->
       <div class="element-flexible">

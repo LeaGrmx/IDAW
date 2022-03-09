@@ -1,7 +1,8 @@
 <?php
     require_once('template_header.php');
 ?>
-       <?php require_once('template_menu.php');?>
+       <?php require_once('template_menu.php');
+        renderMenuToHTML('motivation');?>
      
         <h3> Voici ma lettre de motivation type :</h3>
         <p> 
