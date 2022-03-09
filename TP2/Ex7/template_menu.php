@@ -12,14 +12,13 @@
 
 function renderMenuToHTML($currentPageId, $language) {
 // un tableau qui definit la structure du site
-    if($language=='fr'){
         $mymenu = array( // idPage titre
-            'accueil' => array( 'Accueil'),
-            'cv' => array( 'CV'),
-            'motivation' => array('Motivation'),
-            'projets' => array('Futurs Projets'),
-            'hobbies' => array('Hobbies'),
-            'contact' => array('Me contacter')
+            'accueil' => array( 'fr' => 'Accueil', 'en' => 'Home'),
+            'cv' => array( 'fr' => 'CV', 'en'=> 'Resume'),
+            'motivation' => array('fr' = > 'Motivation', 'en' => 'Cover letter'),
+            'projets' => array('fr' => 'Futurs Projets', 'en' => 'Projects'),
+            'hobbies' => array('fr' => 'Hobbies', 'en' => 'Hobbies'),
+            'contact' => array('fr' => 'Me contacter', 'en' => 'Contact me')
         );
         
         echo "<nav class=\"menu\"><ul>";
@@ -29,36 +28,15 @@ function renderMenuToHTML($currentPageId, $language) {
             if($currentPageId == $pageId)
                 echo "id=\"currentpage\" ";
             
-            echo "href= \"fr\index.php?page=".$pageId."&lang=".$language."\">".$pageParameters[0]."</a></li> \n";
+            echo "href=\"".$language."/index.php?page=".$pageId."&lang=".$language."\">".$pageParameters[$language]."</a></li> \n";
         
-        }
-        echo "</ul></nav>";
-    }
-    elseif($language=='en'){
-        $mymenu = array( // idPage titre
-            'accueil' => array( 'Home Page'),
-            'cv' => array( 'Resume' ),
-            'motivation' => array('Cover letter'),
-            'projets' => array('Projects'),
-            'hobbies' => array('Hobbies'),
-            'contact' => array('Contact me')
-        );
-        
-        echo "<nav class=\"menu\"><ul>";
-        foreach($mymenu as $pageId => $pageParameters) {
-            echo "<li><a ";
-    
-            if($currentPageId == $pageId)
-                echo "id=\"currentpage\" ";
-            
-            echo "href= \"en\index.php?page=".$pageId."&lang=".$language."\">".$pageParameters[0]."</a></li> \n";
-        
-        }
+
         echo "</ul></nav>";
     }
     
     
-} 
+
+}
 
 ?>
 
