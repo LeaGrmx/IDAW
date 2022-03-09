@@ -3,16 +3,19 @@
     require_once("template_menu.php");
     $currentPageId = 'accueil';
     if(isset($_GET['page'])) {
-    $currentPageId = $_GET['page'];
-    } ?>
+        $currentPageId = $_GET['page'];
+    }
+?>
 
 <header class="bandeau_haut">
 <h1 class="titre">Léa Grumiaux</h1>
 </header>
 
+<div class="element-flexible colonne">
 <?php
 renderMenuToHTML($currentPageId);
 ?>
+</div> 
 
 <section class="corps">
 

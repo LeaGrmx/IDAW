@@ -1,16 +1,16 @@
-<h3> Informations de contact </h3>
+<h3> How to contact me ? </h3>
 <p> 
-    Adresse postale :
+    Adress :
     <br>Léa Grumiaux 
     <br>211 Quai du Maréchal Foch 
     <br>59500 DOUAI  
 </p>
 
 <p>
-    Numéro de téléphone :
+     Mobile Phone Number :
     <br>+33 7/89/**/**/65
 </p>
 <p>
-    Adresse mail :
+    Email adress :
     <br> <a href = "mailto:lea.grumiaux@etu.imt-nord-europe.fr"> lea.grumiaux@etu.imt-nord-europe.fr</a> 
 </p>

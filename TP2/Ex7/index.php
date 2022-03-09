@@ -17,14 +17,14 @@
 
 <div class="element-flexible colonne">
 <?php
-renderMenuToHTML($currentPageId);
+renderMenuToHTML($currentPageId,$language);
 ?>
 </div>
 
 <section class="corps">
 
 <?php
-   $pageToInclude = $currentPageId . ".php";
+   $pageToInclude = $language."\\".$currentPageId . ".php";
     if(is_readable($pageToInclude))
         require_once($pageToInclude);
     else

@@ -1,13 +1,13 @@
 
     <div class="element-flexible colonne">
-        <header>Bienvenue sur mon premier site HTML.</header>
+        <header>Welcome on my first HTML website.</header>
         <article>
-            <br>Vous pouvez retrouver dans les différentes fenêtres un certain nombre d'informations potentiellement utile pour un futur recrutement.
-            <br>Vous avez accès à une page contenant mon CV, une lettre de motivation type, mes futurs projets, ainsi qu'une page regroupant mes hobbies. 
+            <br>In each window, you can find some information which may be useful for a recruitment process.
+            <br>You can access a page with my resume, my cover letter, different projects, and also a page about my hobbies. 
         </article>
     </div>
     
 
     <footer>
-    Pour me contacter directement par mail, vous pouvez <a href="mailto:lea.grumiaux@etu.imt-nord-europe.fr"> cliquer ici</a>
+    In order to contact me by email, you can <a href="mailto:lea.grumiaux@etu.imt-nord-europe.fr"> click here</a>
     </footer>

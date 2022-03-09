@@ -10,9 +10,11 @@
 <h1 class="titre">Léa Grumiaux</h1>
 </header>
 
+<div class="element-flexible colonne">
 <?php
 renderMenuToHTML($currentPageId);
 ?>
+</div> 
 
 <section class="corps">
 

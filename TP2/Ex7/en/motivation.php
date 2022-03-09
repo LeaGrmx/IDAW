@@ -1,5 +1,5 @@
 
-<h3> Voici ma lettre de motivation type :</h3>
+<h3> Here is an example of one of my cover letters :</h3>
 <p> 
     Léa GRUMIAUX 
     <br>211 Quai du Maréchal Foch 

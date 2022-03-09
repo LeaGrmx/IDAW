@@ -10,9 +10,9 @@
 
 <?php
 
-function renderMenuToHTML($currentPageId) {
+function renderMenuToHTML($currentPageId, $language) {
 // un tableau qui definit la structure du site
-    if($_GET['lang']=='fr'){
+    if($language=='fr'){
         $mymenu = array( // idPage titre
             'accueil' => array( 'Accueil'),
             'cv' => array( 'CV'),
@@ -29,12 +29,12 @@ function renderMenuToHTML($currentPageId) {
             if($currentPageId == $pageId)
                 echo "id=\"currentpage\" ";
             
-            echo "href= \"fr\index.php?page=".$pageId."\">".$pageParameters[0]."</a></li> \n";
+            echo "href= \"fr\index.php?page=".$pageId."&lang=".$language."\">".$pageParameters[0]."</a></li> \n";
         
         }
         echo "</ul></nav>";
     }
-    elseif($_GET['lang']=='en'){
+    elseif($language=='en'){
         $mymenu = array( // idPage titre
             'accueil' => array( 'Home Page'),
             'cv' => array( 'Resume' ),
@@ -51,7 +51,7 @@ function renderMenuToHTML($currentPageId) {
             if($currentPageId == $pageId)
                 echo "id=\"currentpage\" ";
             
-            echo "href= \"en\index.php?page=".$pageId."\">".$pageParameters[0]."</a></li> \n";
+            echo "href= \"en\index.php?page=".$pageId."&lang=".$language."\">".$pageParameters[0]."</a></li> \n";
         
         }
         echo "</ul></nav>";
