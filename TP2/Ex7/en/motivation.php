@@ -1,5 +1,7 @@
-
+<div class='conteneur-flexible taille100'>
 <h3> Here is an example of one of my cover letters :</h3>
+
+
 <p> 
     Léa GRUMIAUX 
     <br>211 Quai du Maréchal Foch 
@@ -7,6 +9,7 @@
     <br>+33 7/89/**/**/65 
     <br> <a href = "mailto:lea.grumiaux@etu.imt-nord-europe.fr"> lea.grumiaux@etu.imt-nord-europe.fr</a> 
 </p>
+
 
 <p>Dear Sir or Madam,</p>
     
@@ -19,4 +22,5 @@
     <p> Yours faithfully,</p>
     <p> Léa GRUMIAUX</p>
 </p>
+</div>
 

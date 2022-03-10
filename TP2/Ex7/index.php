@@ -15,12 +15,13 @@
 <h1 class="titre">Léa Grumiaux</h1>
 </header>
 
-<div class="element-flexible colonne">
+<div class="element-flexible taille20">
 <?php
 renderMenuToHTML($currentPageId,$language);
 ?>
 </div>
-
+<br>
+<br>
 <section class="corps">
 
 <?php

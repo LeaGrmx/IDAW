@@ -54,7 +54,6 @@ body {
 .conteneur-flexible{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-around;
     align-content: space-around;
     width: 100%;
@@ -72,12 +71,28 @@ body {
 
 .element-flexible{
     flex: 1 1 50px;
-    background-color: rgb(208, 231, 247); /*commentaire CSS*/
+    background-color: rgb(208, 231, 247); 
     align-items: center;
     width: 40%;
     border: 2px solid white;
     box-sizing: border-box;
     margin: 10px;
+}
+.centré{
+    display: flex;
+    justify-content: center;
+   }
+
+.taille20{
+    width:20%;
+}
+
+.taille50{
+    width:50%;
+}
+
+.taille95{
+    width:95%;
 }
 
 #currentpage {

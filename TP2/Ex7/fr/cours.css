@@ -52,16 +52,15 @@ body {
     }
 
 .conteneur-flexible{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    display:block;
+    flex-wrap :wrap;
     justify-content: space-around;
-    align-content: space-around;
+    align-content:space-around;
     width: 100%;
     height: 200px;
     border: 2px solid white;
-    box-sizing: border-box;
-    margin: 20px 0px;
+    box-sizing:border-box;
+    margin: 20px 10px;
 }
 .ligne{
     flex-direction: row; /*Axe principal = axe horizontal*/
@@ -79,6 +78,24 @@ body {
     box-sizing: border-box;
     margin: 10px;
 }
+
+.taille20{
+    width:20%;
+}
+
+.taille50{
+    width:50%;
+}
+
+.taille100{
+    width:100%;
+    height: 60%;
+}
+
+.centré{
+    display: flex;
+    justify-content: center;
+   }
 
 #currentpage {
     font-size: 17px;

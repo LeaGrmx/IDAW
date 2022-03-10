@@ -7,7 +7,9 @@
             <p class=p1 > I play music since I'm 5 years old, and I play clarinet within an orchestra since 2014 in the "Harmonie municipale de Berlaimont".</p> 
         </li>
     </ul>
+    <div class='centré'>
     <img src ="Harmonie Berlaimont 2022.jpg" width=300 height=300 alt="Picture Harmonie de Berlaimont 2022">
+    </div>
 </div>
 
 <div class="element-flexible">
@@ -16,7 +18,9 @@
             <p class=p1> I play tennis for several years now : after 2 years in high school I'm playing now at IMT Nord Europe during my sport courses.</p>
         </li>
     </ul>
+    <div class='centré'>
     <img src="Logo tennis.png" alt="Logo tennis">
+    </div>  
 </div>
 
 <div class="element-flexible">

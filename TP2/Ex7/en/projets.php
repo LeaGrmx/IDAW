@@ -1,4 +1,4 @@
-<div class="element-flexible">
+<div class="element-flexible taille50">
 <h4> Projects</h4>
 
 <ul>
