@@ -4,19 +4,19 @@
     Léa GRUMIAUX 
     <br>211 Quai du Maréchal Foch 
     <br>59500 DOUAI  
-    <br>+33 7/89/69/79/65 
+    <br>+33 7/89/**/**/65 
     <br> <a href = "mailto:lea.grumiaux@etu.imt-nord-europe.fr"> lea.grumiaux@etu.imt-nord-europe.fr</a> 
 </p>
 
-<p>Madame, Monsieur,</p>
+<p>Dear Sir or Madam,</p>
     
-    <p class = "alinea">Depuis le lycée, je sais que je souhaite travailler dans le domaine de la santé, pour apporter ma contribution à ce secteur en constante évolution. En temps qu’étudiante en première année de master dans le domaine de l’ingénierie, soit en quatrième année à l’école d’ingénieur IMT Nord Europe à Douai, (anciennement Mines de Douai) j’apprécierai tout particulièrement pouvoir voir de plus près vos méthodes et sujets de travail, vos innovations et voir leur impact sur la société. Pour cela, j’aimerais réaliser un stage au sein de Siemens d’Avril à Août 2022. Je suis consciente que cette offre a pour but d’accueillir quelqu’un pour une durée minimale de 6mois, mais celui-ci convient parfaitement à mes attentes, c’est pourquoi je tente tout de même ma chance.</p>
-    <p class = "alinea"> De plus, mes études, en classe préparatoire ou en école d’ingénieur, m’ont permis d’apprendre et de développer mes compétences pour résoudre des problèmes rapidement, afin d’être aussi efficace que possible. Grâce à mon projet de l’année dernière en dernière année de licence, qui visait à faciliter le parcours de soin du patient en sortie d’hôpital par l’intermédiaire d’une application web, j’ai eu l’opportunité de créer de nouvelles compétences informatiques, et appris comment travailler en équipe. Également durant la dernière année de licence , grâce à mon stage au Centre Hospitalier Universitaire de Lille au sein de la Direction des Ressources Numériques et du Système d’Information, j’ai pu mettre à profit ce mode de travail, développer mon organisation du travail en priorisant mes tâches et j’ai également amélioré mes compétences de communication.</p>
-    <p class = "alinea"> Pleine de ressources, très motivée et altruiste, je suis réellement passionnée par le secteur médical et celui de l’informatique liée à l’imagerie médicale. Je pense être la candidate idéale pour ce poste car j’ai un réel attrait pour ce domaine, et comme requis par le poste j’ai suivi des cours dans le domaine du machine learning, connait très bien le langage Python et ai déjà eu une expérience en langage C++. D’un côté, je sais que je dispose de la capacité d’apprendre rapidement, et des compétences pour apporter une autre perspective à vos projets. De l’autre, ce serait une expérience très enrichissante et un honneur d’avoir l’opportunité de travailler pour votre entreprise. </p>
-    <p> Je serai ravie d’échanger avec vous plus en détails lors d’un entretien, si vous avez des questions ou avez besoin d’informations supplémentaires, n’hésitez pas à me contacter.</p>
-    <p> Merci pour votre temps et votre considération,</p>
+    <p class = "alinea">Since middle-school, I have known I want to work in the medical field, to bring my contribution to this sector which is constantly evolving. As a fourth-year engineering student at Institut-Mines- Télécom in Douai, France, I would particularly appreciate to get a closer look at the innovations you offered to your customers and to see their daily impact in their lives by carrying out an internship in ***, from April to August 2022. </p>
+    <p class = "alinea"> What’s more, my studies, in preparatory class or in engineering school, allow me to learn and to develop my skills to solve problems quickly in order to be as efficient as possible. Thanks to my project for the third-year in engineering school, which aims to facilitate the patient’s care path when leaving the hospital by creating a web app, I have had the opportunity to build skills in IT, and to learn how to work together. Last year, thanks to my internship at the University Hospital Center in Lille, in the Digital Resources and Information System Department, I gained experience by working in team, and improved my communication skills. </p>
+    <p class = "alinea"> Resourceful, self-motivated, proactive in bringing solutions to problems and having always been attracted to the medical field, I feel I’m an ideal candidate for an internship in your company. On the one hand, I’m certain I have the ability to learn quickly and the skills to bring a fresh perspective to your projects. On the other hand, it would really be a rewarding experience to have the opportunity to work for a leading company like yours in the medical technology field. </p>
+    <p> I would be pleased to discuss with you in more details at an interview so if you have any questions or require further information, please feel free to contact me. </p>
+    <p> Thanks for your time and consideration.</p>
     
-    <p> Cordialement,</p>
+    <p> Yours faithfully,</p>
     <p> Léa GRUMIAUX</p>
 </p>
 

@@ -3,18 +3,26 @@
 
         <div class="element-flexible">
             <ul>
-                <li> La musique : Clarinette au sein de l'harmonie municipale de Berlaimont depuis 2014 </li>
+                <li> La musique : 
+                    <p class=p1> Je joue de la musique depuis mes 5 ans, et je fais de la clarinette au sein de l'harmonie municipale de Berlaimont depuis 2014 </p></li>
             </ul>
-            <img src ="Harmonie Berlaimont 2022.jpg" width=500 height=500 alt="Photo Harmonie de Berlaimont 2022">
+            <img src ="Harmonie Berlaimont 2022.jpg" width=300 height=300 alt="Photo Harmonie de Berlaimont 2022">
         </div>
         
         <div class="element-flexible">
             <ul>
-                <li> Tennis </li>
+                <li> Le tennis 
+                    <p class=p1 > Je pratique le tennis depuis plusieurs années maintenant, pendant 2 ans au lycée et aujourd'hui au sein de l'UV sport à l'IMT Nord-Europe </p>
+                </li>
             </ul>
             <img src="Logo tennis.png" alt="Logo tennis">
+        </div>
+        
+        <div class="element-flexible">
             <ul>
-                <li> Voyages </li>
+                <li> Les voyages :
+                    <p class=p1> Voyager est quelque chose que j'apprécie énormément, et j'ai hâte de pouvoir visiter le plus d'endroits possibles dans le monde, découvrir de nouvelles cultures, des nouveaux paysages... </p>
+                </li>
             </ul>
         </div>
       
