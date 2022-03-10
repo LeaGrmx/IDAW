@@ -15,10 +15,11 @@ function renderMenuToHTML($currentPageId, $language) {
         $mymenu = array( // idPage titre
             'accueil' => array( 'fr' => 'Accueil', 'en' => 'Home'),
             'cv' => array( 'fr' => 'CV', 'en'=> 'Resume'),
-            'motivation' => array('fr' = > 'Motivation', 'en' => 'Cover letter'),
+            'motivation' => array('fr' => 'Motivation', 'en' => 'Cover letter'),
             'projets' => array('fr' => 'Futurs Projets', 'en' => 'Projects'),
             'hobbies' => array('fr' => 'Hobbies', 'en' => 'Hobbies'),
-            'contact' => array('fr' => 'Me contacter', 'en' => 'Contact me')
+            'contact' => array('fr' => 'Me contacter', 'en' => 'Contact me'),
+            'langage' => array('fr'=> array('en', 'English version'), 'en' => array('fr','Version française'))
         );
         
         echo "<nav class=\"menu\"><ul>";
@@ -28,11 +29,16 @@ function renderMenuToHTML($currentPageId, $language) {
             if($currentPageId == $pageId)
                 echo "id=\"currentpage\" ";
             
-            echo "href=\"".$language."/index.php?page=".$pageId."&lang=".$language."\">".$pageParameters[$language]."</a></li> \n";
+            if($pageId!='langage')
+                echo "href=\"index.php?page=".$pageId."&lang=".$language."\">".$pageParameters[$language]."</a></li> \n";
+            
+            elseif($pageId=='langage')
+                echo "href=\"index.php?page=".$currentPageId."&lang=".$pageParameters[$language][0]."\">".$pageParameters[$language][1]."</a></li>\n";
         
 
         echo "</ul></nav>";
-    }
+        }
+        
     
     
 
