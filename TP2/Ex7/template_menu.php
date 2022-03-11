@@ -34,14 +34,8 @@ function renderMenuToHTML($currentPageId, $language) {
             
             elseif($pageId=='langage')
                 echo "href=\"index.php?page=".$currentPageId."&lang=".$pageParameters[$language][0]."\">".$pageParameters[$language][1]."</a></li>\n";
-        
-
-        echo "</ul></nav>";
         }
-        
-    
-    
-
+        echo "</ul></nav>";
 }
 
 ?>

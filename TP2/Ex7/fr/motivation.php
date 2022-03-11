@@ -1,4 +1,4 @@
-
+<div class='conteneur-flexible taille100'>
 <h3> Voici ma lettre de motivation type :</h3>
 <p> 
     Léa GRUMIAUX 
@@ -19,4 +19,5 @@
     <p> Cordialement,</p>
     <p> Léa GRUMIAUX</p>
 </p>
+</div>
 

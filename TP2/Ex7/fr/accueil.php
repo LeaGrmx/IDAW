@@ -1,5 +1,5 @@
 
-    <div class="element-flexible colonne">
+    <div class="element-flexible taille30">
         <header>Bienvenue sur mon premier site HTML.</header>
         <article>
             <br>Vous pouvez retrouver dans les différentes fenêtres un certain nombre d'informations potentiellement utile pour un futur recrutement.

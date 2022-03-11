@@ -1,9 +1,9 @@
 
         <h3> Mes hobbies</h3>
 
-        <div class="element-flexible">
+        <div class="element-flexible taille60">
             <ul>
-                <li> La musique : 
+                <li> <h5> La musique</h5>
                     <p class=p1> Je joue de la musique depuis mes 5 ans, et je fais de la clarinette au sein de l'harmonie municipale de Berlaimont depuis 2014 </p></li>
             </ul>
             <div class='centré'>
@@ -11,9 +11,9 @@
             </div>
         </div>
         
-        <div class="element-flexible">
+        <div class="element-flexible taille60">
             <ul>
-                <li> Le tennis 
+                <li> <h5>Le tennis</h5>
                     <p class=p1 > Je pratique le tennis depuis plusieurs années maintenant, pendant 2 ans au lycée et aujourd'hui au sein de l'UV sport à l'IMT Nord-Europe </p>
                 </li>
             </ul>
@@ -22,9 +22,9 @@
             </div>
         </div>
         
-        <div class="element-flexible">
+        <div class="element-flexible taille60">
             <ul>
-                <li> Les voyages :
+                <li> <h5>Les voyages</h5>
                     <p class=p1> Voyager est quelque chose que j'apprécie énormément, et j'ai hâte de pouvoir visiter le plus d'endroits possibles dans le monde, découvrir de nouvelles cultures, des nouveaux paysages... </p>
                 </li>
             </ul>

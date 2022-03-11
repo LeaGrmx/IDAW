@@ -1,9 +1,9 @@
 
 <h3> My hobbies</h3>
 
-<div class="element-flexible">
+<div class="element-flexible taille60">
     <ul>
-        <li> Music : 
+        <li> <h5>Music</h5>
             <p class=p1 > I play music since I'm 5 years old, and I play clarinet within an orchestra since 2014 in the "Harmonie municipale de Berlaimont".</p> 
         </li>
     </ul>
@@ -12,9 +12,9 @@
     </div>
 </div>
 
-<div class="element-flexible">
+<div class="element-flexible taille60">
     <ul>
-        <li> Tennis 
+        <li> <h5>Tennis</h5>
             <p class=p1> I play tennis for several years now : after 2 years in high school I'm playing now at IMT Nord Europe during my sport courses.</p>
         </li>
     </ul>
@@ -23,9 +23,9 @@
     </div>  
 </div>
 
-<div class="element-flexible">
+<div class="element-flexible taille60">
     <ul>
-        <li> Traveling 
+        <li> <h5>Traveling</h5>
             <p class=p1> To travel is really something I appreciate a lot, and I can't wait to have the opportunity to visit other countries, to discover new cultures and new landscapes !</p>
         </li>
     </ul>

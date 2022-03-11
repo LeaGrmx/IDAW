@@ -61,6 +61,7 @@ body {
     border: 2px solid white;
     box-sizing: border-box;
     margin: 20px 0px;
+    position: relative;
 }
 .ligne{
     flex-direction: row; /*Axe principal = axe horizontal*/
@@ -85,14 +86,27 @@ body {
 
 .taille20{
     width:20%;
+    padding:2em;
 }
 
-.taille50{
-    width:50%;
+.taille25{
+    width:25%;
+    padding:1em;
 }
 
-.taille95{
-    width:95%;
+.taille30{
+    width:30%;
+    padding:2em;
+}
+
+.taille60{
+    width:60%;
+    padding:2em;
+}
+
+.taille100{
+    width:100%;
+    padding:2em;
 }
 
 #currentpage {
@@ -100,4 +114,6 @@ body {
     font-weight: bold;
     color : rgb(167, 37, 4);
 }
+
+
 
