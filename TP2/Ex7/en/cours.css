@@ -61,7 +61,6 @@ body {
     border: 2px solid white;
     box-sizing: border-box;
     margin: 20px 0px;
-    position: relative;
 }
 .ligne{
     flex-direction: row; /*Axe principal = axe horizontal*/
@@ -80,7 +79,7 @@ body {
     margin: 10px;
 }
 .centré{
-    display: flex;
+    display: block;
     justify-content: center;
    }
 
