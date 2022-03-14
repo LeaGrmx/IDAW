@@ -1,0 +1,19 @@
+.element-flexible{
+    flex: 1 1 50px;
+    background-color: rgb(208, 231, 247); /*commentaire CSS*/
+    align-items: center;
+    width: 40%;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.taille25{
+    width:25%;
+    padding:1em;
+}
+
+h3{
+    color : rgb(8, 8, 145);
+    font-size: 22px;
+}
