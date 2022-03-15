@@ -92,17 +92,23 @@
     }
     let remarques = $('#inputRemarques').val();
     $("#studentsTableBody").append(`<tr><td>${nom}</td><td>${prenom}</td><td>${date}</td><td>${cours}</td><td>${remarques}</td>
-        <td> <button class="edit">Edit </button>
-    <button class="delete"> Delete </button> </td><td></td></tr>`);
+        <td> <button id="edit">Edit </button>
+    <button id="delete"> Delete </button> </td><td></td></tr>`);
     }
 
+    
+
     // Pour chaque bouton "Supprimer"
-    let deleteBouton = document.querySelectorAll("button.delete");
-    let row = event.currentTarget;
-    deleteBouton.addEventListener('click', function(){row.remove()});
+    let deleteBouton = document.getElementById("button.delete");
+    deleteBouton.addEventListener('click', deleteRow(this));
+
+    function deleteRow(btn){
+        var row = btn.parentNode.parentNode;
+        row.parentNode.removeChild();
+    }
 
     
-        //document.getElementById("#studentsTableBody").currentTarget.remove()
+    //document.getElementById("#studentsTableBody").currentTarget.remove()
         
     
 
