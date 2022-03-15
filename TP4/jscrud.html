@@ -92,16 +92,21 @@
     }
     let remarques = $('#inputRemarques').val();
     $("#studentsTableBody").append(`<tr><td>${nom}</td><td>${prenom}</td><td>${date}</td><td>${cours}</td><td>${remarques}</td>
-        <td> <button class="edit btn btn-sm btn-outline-success">Edit </button>
-    <button class="delete btn btn-sm btn-outline-danger"> Delete </button> </td><td></td></tr>`);
+        <td> <button class="edit">Edit </button>
+    <button class="delete"> Delete </button> </td><td></td></tr>`);
     }
 
-   /*  // Pour chaque bouton "Supprimer"
-    document.querySelectorAll("button.delete").forEach(b => {
-    b.addEventListener("click", function() {
-    document.getElementById("#studentsTableBody").deleteRow(this.value);
-    });
-    }); */
+    // Pour chaque bouton "Supprimer"
+    let deleteBouton = document.querySelectorAll("button.delete");
+    let row = event.currentTarget;
+    deleteBouton.addEventListener('click', function(){row.remove()});
+
+    
+        //document.getElementById("#studentsTableBody").currentTarget.remove()
+        
+    
+
+    //innerHTML pour remplacer un contenu HTML (pour la suite avec edit)
 </script>
 </body>
 </html>
