@@ -36,8 +36,7 @@
                         <td>".$row['PSEUDO']."</td></tr>";
             }
             echo "</table>";
-            print_r($row['login']);
-
+            
         ?>
     </body>
 </html>
