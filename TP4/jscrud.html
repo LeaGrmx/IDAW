@@ -92,27 +92,57 @@
     }
     let remarques = $('#inputRemarques').val();
     $("#studentsTableBody").append(`<tr><td>${nom}</td><td>${prenom}</td><td>${date}</td><td>${cours}</td><td>${remarques}</td>
-        <td> <button id="edit">Edit </button>
-    <button id="delete"> Delete </button> </td><td></td></tr>`);
+        <td> <input type='button' Value="Edit" id="editBtn" onclick="editRow(this)">
+            <input type='button' Value="Save" id="saveBtn" onclick="saveRow(this)">
+    <input type='button' Value="Delete" id="deleteBtn" onclick="deleteRow(this)"> </td><td></td></tr>`);
     }
 
-    
 
-    // Pour chaque bouton "Supprimer"
-    let deleteBouton = document.getElementById("button.delete");
-    deleteBouton.addEventListener('click', deleteRow(this));
-
-    function deleteRow(btn){
+    function deleteRow(btn) {
         var row = btn.parentNode.parentNode;
-        row.parentNode.removeChild();
+        row.parentNode.removeChild(row);
     }
 
-    
-    //document.getElementById("#studentsTableBody").currentTarget.remove()
-        
-    
+    function editRow(btn) {
+        var row = btn.parentNode.parentNode;
+        var personne = row.childNodes;
 
-    //innerHTML pour remplacer un contenu HTML (pour la suite avec edit)
+        var nom = personne[0];
+        var newNom = nom.innerHTML;
+        nom.innerHTML = "<input type='text' value='"+newNom+"'>";
+
+        var prenom = personne[1];
+        var newPrenom = prenom.innerHTML;
+        prenom.innerHTML = "<input type='text' value='"+newPrenom+"'>";
+
+        var birth = personne[2];
+        var newBirth = birth.innerHTML;
+        birth.innerHTML = "<input type='date' value='"+newBirth+"'>";
+
+        /* var cours = personne[3];
+        var newCours = cours.innerHTML;
+        let newValue =''
+        if($('#inputCours').prop('checked')){
+            cours = "Oui";
+        }
+        else{
+            cours ="Non";
+        }
+        cours.innerHTML = "<input type='checkbox' value='"+newCours+"'>"; */
+
+        var remarques = personne[4];
+        var newRemarques = remarques.innerHTML;
+        remarques.innerHTML = "<input type='text' value='"+newRemarques+"'>";
+        
+    }
+
+    function saveRow(btn) {
+        var row = btn.parentNode.parentNode;
+        var personne = row.childNodes;
+        for(k=0;k<=4;k++) {
+            personne[k].innerHTML = personne[k].childNodes[0].value;
+        }
+    }
 </script>
 </body>
 </html>
