@@ -17,7 +17,7 @@
             echo json_encode($result);
         
         else{
-            echo 'Erreur';
+            echo 'Erreur requête';
         }
     }
 ?>

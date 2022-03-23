@@ -112,14 +112,35 @@
         })
 
         .fail(function(){
-            console.log('Erreur')
+            console.log('Erreur lors de l\'ajout');
         })
     }
 
 
     function deleteRow(btn) {
         var row = btn.parentNode.parentNode;
-        row.parentNode.removeChild(row);
+        var personne = row.childNodes;
+        $.post({
+            url : "deleteUser.php",
+            dataType: "json",
+            data : personne,
+            
+            function(res,status){
+                console.log(personne);
+                var data =JSON.parse(res);
+                console.log('data',data);
+                console.log('status', status);
+            }
+
+        })
+        .done(function(){
+            row.parentNode.removeChild(row);
+        })
+        .fail(function(){
+            console.log('Erreur lors de la suppression');
+        })
+        
+
     }
 
     function editRow(btn) {
