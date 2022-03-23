@@ -119,20 +119,12 @@
 
     function deleteRow(btn) {
         var row = btn.parentNode.parentNode;
-
-        let nom = row[0].html();
-        /* let prenom = $('#inputPrenom').val();
-        let date = $('#inputBirth').val();
-        let cours =''
-        if($('#inputCours').prop('checked')){
-            cours = "Oui";
-        }
-        else{
-            cours ="Non";
-        }
-        let remarques = $('#inputRemarques').val();
-        let personne = {nom, prenom, date, cours, remarques}; */
-        console.log(nom);
+        let nom = row.children[0].innerHTML;
+        let prenom = row.children[1].innerHTML;
+        let date = row.children[2].innerHTML;
+        let cours = row.children[3].innerHTML;
+        let remarques = row.children[4].innerHTML;
+        let personne = {nom, prenom, date, cours, remarques}; 
         $.post({
             url : "deleteUser.php",
             dataType: "json",
@@ -141,8 +133,8 @@
 
         })
         .done(function(){
-            console.log('Done');
-            //row.parentNode.removeChild(row);
+            /* console.log('Done'); */
+            row.parentNode.removeChild(row);
         })
         .fail(function(){
             console.log('Erreur lors de la suppression');
