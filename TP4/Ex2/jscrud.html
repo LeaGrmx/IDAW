@@ -93,7 +93,7 @@
         let remarques = $('#inputRemarques').val();
         let personne = {nom, prenom, date, cours, remarques};
         $.post({
-            url : "addUser.php",
+            url : "createUser.php",
             dataType: "json",
             data : personne,
             function(res,status){
@@ -132,8 +132,9 @@
             
 
         })
-        .done(function(){
+        .done(function(data){
             /* console.log('Done'); */
+            console.log(data);
             row.parentNode.removeChild(row);
         })
         .fail(function(){
